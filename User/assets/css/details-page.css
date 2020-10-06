@@ -1,0 +1,780 @@
+/*-------------------------------------------------------------------------------------- 
+	Theme Name: Chamb - Responsive E-commerce HTML5 Template 
+---------------------------------------------------------------------------------------- 
+    
+	1. IMPORT FILES
+	2. BASE CSS 
+	3. HEADER
+	   - Logo
+	   - Search Bar
+	4. PAGE CONTENT PRODUCT 
+	5. SECTION
+	   - Products Exciting
+	   - Start Free
+	6. PRODUCT
+	7. FOOTER
+	   - Copyright
+	8. INNER PAGE   
+	   - How it Works
+	   - About Us
+	   - Terms Page
+	   - Cooming Soon
+	   - Category
+	   - Profile
+	   - Pricing
+	   - Product Page
+	   - New Layout css
+	
+--------------------------------------------------------------------------------------*/
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+/*------------------------------------------------------------- 
+	1. IMPORT FILES
+-------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/**-- font-family: 'Raleway', sans-serif; --**/
+
+
+/*------------------------------------------------------------- 
+	2. BASE CSS 
+-------------------------------------------------------------*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+	overflow-x: hidden;
+	padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul,
+ol {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a,
+a:hover,
+a:focus {
+	-webkit-text-decoration: none;
+	-moz-text-decoration: none;
+	-ms-text-decoration: none;
+	-o-text-decoration: none;
+	text-decoration: none;
+	transition: ease all 0.5s;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+textarea {
+	outline: none;
+	border: none;
+	resize: none;
+}
+
+
+/*------------------------------------------------------------- 
+	2. HEADER 
+-------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------- 
+	4. PAGE CONTENT PRODUCT
+-------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------- 
+	5. SECTION
+-------------------------------------------------------------*/
+
+
+
+/*-- Products Exciting --*/
+
+
+/*-- Start Free --*/
+
+
+/*------------------------------------------------------------- 
+	6. PRODUCT
+-------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------- 
+	7. FOOTER
+-------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------- 
+	8. INNER PAGE 
+-------------------------------------------------------------*/
+
+/*-- How it Works --*/
+
+.
+
+/*-- About Us --*/
+
+
+
+/*-- Terms Page --*/
+
+
+/*-- Cooming Soon --*/
+
+
+
+/*-- Category --*/
+
+
+/*-- Profile --*/
+
+
+.profile-b {
+	position: relative;
+}
+
+.profile-b img {
+	width: 100%;
+}
+
+.profile-b::before {
+	content: "";
+	position: absolute;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0+0,1+100 */
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000', GradientType=0);
+	/* IE6-9 */
+	height: 180px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	opacity: 0.5;
+}
+
+.dit-p {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+.profile-left-b {
+	float: left;
+	padding-bottom: 21px;
+}
+
+.profile-left-b ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.profile-left-b ul li {
+	display: inline-block;
+	border-right: 1px solid #fff;
+	padding: 0px 5px;
+}
+
+.profile-left-b ul li a {
+	font-size: 17px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.profile-left-b ul li:last-child {
+	border: none;
+}
+
+.profile-right-b {
+	float: right;
+	padding-bottom: 21px;
+}
+
+.profile-right-b a.vi-btn {
+	background: #fff;
+	color: #333333;
+	border-radius: 2px;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 9px 25px;
+	display: inline-block;
+}
+
+.profile-right-b a.fo-btn {
+	background: #1f95ff;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 9px 25px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.product-profile-box {}
+
+.profile-pro-left {
+	margin-top: -88px;
+}
+
+.left-profile-box-m {
+	margin-left: 15px;
+}
+
+.pr {
+	padding-right: 0px;
+}
+
+.left-profile-box-m h3 {
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	float: left;
+}
+
+.check-box {
+	position: relative;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #27cb98;
+	border-radius: 50%;
+	margin: 9px 5px;
+	-webkit-box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.check-box::before {
+	top: 2px;
+	left: 2px;
+	width: 8px;
+	height: 13px;
+	border-top: 2px solid transparent;
+	border-left: 2px solid transparent;
+	border-right: 2px solid #fff !important;
+	border-bottom: 2px solid #fff !important;
+	-webkit-transform: rotateZ(37deg);
+	transform: rotateZ(37deg);
+	-webkit-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+	position: absolute;
+	content: "";
+}
+
+.left-profile-box-m p {
+	font-size: 13px;
+	color: #979797;
+	margin: 0px;
+	padding-bottom: 17px;
+	display: inline-block;
+}
+
+.left-profile-box-m p img {
+	margin-right: 10px;
+}
+
+.left-profile-box-m a {
+	background: #1f95ff;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 12px 6px;
+	border-radius: 2px;
+	margin-bottom: 19px;
+	display: block;
+	text-align: center;
+	clear: both;
+}
+
+.pro-img {
+	background: #fff;
+	padding: 8px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pro-right {
+	padding-top: 10px;
+}
+
+.profile-pro-right .panel-default {
+	background-color: transparent;
+	margin: 0px;
+}
+
+.profile-pro-right .panel-default>.panel-heading {
+	background-color: transparent;
+	border: none;
+	padding: 0px;
+}
+
+.profile-pro-right .panel-default>.panel-heading {
+	margin-bottom: 15px;
+}
+
+.profile-pro-right .nav>li>a:focus,
+.nav>li>a:hover {
+	background-color: transparent;
+	border: none;
+}
+
+.profile-pro-right .nav-tabs>li>a {
+	font-size: 16px;
+	font-weight: 400;
+	color: #353334;
+	border: none;
+	border-bottom: 2px solid transparent;
+	margin: 0px;
+	border-radius: 0px;
+	padding: 10px 0px;
+}
+
+.profile-pro-right .nav-tabs>li>a span {
+	color: #1f96fe;
+}
+
+.profile-pro-right .nav-tabs>li {
+	margin: 0px;
+	margin: 0px 10px;
+}
+
+.profile-pro-right .nav-tabs>li.active>a,
+.profile-pro-right .nav-tabs>li.active>a:focus,
+.profile-pro-right .nav-tabs>li.active>a:hover {
+	border: none;
+	border-bottom: 2px solid #c6c6c6;
+	font-weight: 700;
+	color: #333333;
+}
+
+.profile-pro-right .nav-tabs {
+	border-bottom: none;
+}
+
+.right-t {}
+
+.profile-pro-right .panel-default .panel-body {
+	padding: 15px 6px;
+}
+
+.product-box-main .small-box-c {
+	margin-bottom: 20px;
+}
+
+.product-box-main .small-box-c .prod-btn a:hover {
+	color: #1c95fd;
+}
+
+.about-box h2 {
+	color: #333;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 56px;
+	margin-bottom: 40px;
+}
+
+.about-box p {
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	margin-bottom: 40px;
+}
+
+/*-- Pricing --*/
+
+
+/*-- Product Page --*/
+
+.product-page {
+	padding-bottom: 0px;
+}
+
+.product-page-main {
+	background: #f2f2f2;
+}
+
+.prod-page-title {
+	padding: 20px 0px;
+}
+
+.prod-page-title h2 {
+	font-size: 25px;
+	font-weight: 400;
+	color: #333333;
+	padding-bottom: 12px;
+}
+
+.prod-page-title p {
+	margin: 0px;
+	font-size: 13px;
+	color: #ababab;
+}
+
+.prod-page-title p span {
+	color: #3ba2ff;
+}
+
+.prod-page {
+	margin-left: 0px;
+}
+
+.prod-page a {
+	background: #ffffff;
+	color: #333333;
+	-webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	clear: both;
+	text-align: center;
+}
+
+.md-prod-page {
+	-webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.md-prod-page-in {
+	padding: 11px;
+	background: #fff;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.pof-text {}
+
+.page-preview {}
+
+.preview {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 996px) {
+	.preview {
+		margin-bottom: 20px;
+	}
+}
+
+.preview-pic {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.preview-thumbnail.nav-tabs {
+	border: none;
+	margin-top: 15px;
+}
+
+.preview-thumbnail.nav-tabs li {
+	width: 24%;
+	margin: 0 0.5%;
+}
+/* ******************************************************************* */
+.preview-thumbnail.nav-tabs li img {
+	max-width: 100%;
+	height: 100px;
+	display: block;
+}
+/* ******************************************************************* */
+.preview-thumbnail.nav-tabs li a {
+	padding: 0;
+	margin: 0;
+	border-radius: 2px;
+	border: 3px solid #ddd;
+}
+
+.preview-thumbnail.nav-tabs li:last-of-type {
+	margin-right: 0;
+}
+
+.tab-content {
+	overflow: hidden;
+}
+
+.preview-pic.tab-content {
+	border: 3px solid #ddd;
+	width: 99%;
+	margin: 0.5%;
+}
+/* ******************************************************************* */
+.tab-content img {
+	width: 100%;
+    height: 400px;
+	-webkit-animation-name: opacity;
+	animation-name: opacity;
+	-webkit-animation-duration: .3s;
+	animation-duration: .3s;
+}
+/* ******************************************************************* */
+.preview-thumbnail.nav-tabs li.active a {
+	border: 3px solid #01b888;
+}
+
+.btn-dit-list {
+	padding-top: 30px;
+}
+
+.left-dit-p {
+	float: left;
+}
+
+.right-dit-p {
+	float: right;
+}
+
+.left-dit-p p {
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #acacac;
+	margin: 0px;
+}
+
+.right-dit-p .like-list {
+	padding: 2px 0px;
+}
+
+.description-box {
+	padding-top: 22px;
+	padding-left: 11px;
+	padding-right: 11px;
+	padding-bottom: 10px;
+	background: #fff;
+}
+
+.description-box h4 {
+	font-size: 15px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+.description-box p {
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #626262;
+	line-height: 24px;
+}
+
+.dex-a {
+	padding-bottom: 25px;
+}
+
+.description-box h5 {
+	font-size: 13px;
+	font-weight: 700;
+	padding-bottom: 0px;
+	line-height: 34px;
+	color: #585858;
+	border-right: 1px solid #eeeeee;
+}
+
+.spe-a {
+	padding-bottom: 25px;
+}
+
+.spe-a ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.spe-a ul li p {
+	line-height: 34px;
+}
+
+.spe-a ul li {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.spe-a ul li .col-md-4 {
+	padding-left: 0px;
+}
+
+.similar-box {
+	padding: 40px 0px;
+}
+
+.similar-box h2 {
+	font-size: 18px;
+	color: #343331;
+	font-weight: 700;
+}
+
+.price-box-right h4 {
+	font-size: 16px;
+	color: #333333;
+	padding-bottom: 10px;
+}
+
+.price-box-right h3 {
+	font-weight: 700;
+	font-size: 21px;
+	color: #092749;
+	padding-bottom: 16px;
+}
+
+.price-box-right h3 span {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.price-box-right p {
+	margin: 0px;
+	padding-bottom: 6px;
+	font-size: 12px;
+}
+
+.price-box-right {
+	-webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
+	padding: 23px;
+	background: #fff;
+}
+
+.price-box-right .select2-container--default .select2-selection--single {
+	border: 1px solid #dde1e0;
+	height: auto;
+	min-height: 30px;
+}
+
+.price-box-right .select2-container--default .select2-selection--single .select2-selection__arrow {
+	border: 1px solid #bdc1c2;
+	height: 28px;
+	top: 4px;
+	right: 5px;
+	width: 12px;
+}
+
+.price-box-right .select2-container--default .select2-selection--single .select2-selection__arrow b {
+	border-width: 4px 3px 0 3px;
+	margin-left: -3px;
+}
+
+.price-box-right .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+	border-width: 0 3px 4px 3px;
+	margin-left: -3px;
+}
+
+.price-box-right .select2-container--default .select2-selection--single .select2-selection__rendered {
+	min-height: 35px;
+	line-height: 32px;
+}
+
+.price-box-right .select2-container {
+	width: 100%;
+}
+
+.price-box-right a {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00cb96+0,00be8e+100 */
+	background: #00cb96;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #00cb96 0%, #00be8e 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #00cb96 0%, #00be8e 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #00cb96 0%, #00be8e 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00cb96', endColorstr='#00be8e', GradientType=0);
+	/* IE6-9 */
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	border: 1px solid #01b888;
+	padding: 12px 0px;
+	display: block;
+	margin-top: 18px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.price-box-right h5 {
+	color: #5a5a5a;
+	font-size: 14px;
+	padding-top: 14px;
+	padding-bottom: 35px;
+}
+
+.price-box-right ul {
+	width: 150px;
+}
+
+.price-box-right ul li {
+	overflow: auto;
+}
+
+.price-box-right ul li p {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+}
+
+.price-box-right ul li span {
+	float: right;
+	font-weight: 700;
+	color: #333333;
+}
+
+/*-- New Layout css --*/
+
