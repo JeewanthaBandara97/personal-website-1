@@ -1,0 +1,18 @@
+C:\xampp\htdocs\test\assets\js\bootstrap.bundle.js
+C:\xampp\htdocs\test\assets\js\bootstrap.bundle.js.map
+C:\xampp\htdocs\test\assets\js\bootstrap.bundle.min.js
+C:\xampp\htdocs\test\assets\js\bootstrap.bundle.min.js.map
+C:\xampp\htdocs\test\assets\js\bootstrap.js
+C:\xampp\htdocs\test\assets\js\bootstrap.js.map
+C:\xampp\htdocs\test\assets\js\bootstrap.min.js
+C:\xampp\htdocs\test\assets\js\bootstrap.min.js.map
+C:\xampp\htdocs\test\assets\js\paginationtbl.js
+C:\xampp\htdocs\test\assets\js\print.txt
+C:\xampp\htdocs\test\assets\js\right-click-dissable.js
+
+
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
